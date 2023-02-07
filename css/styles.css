@@ -325,7 +325,7 @@ main {
 
 h1 {
     font-size: 2em;
-    margin: 0.67em 0;
+    margin: 0.40em 0;
 }
 
 /* ------------------------------------------------------------------- 
@@ -3791,6 +3791,13 @@ input[type="button"].btn--primary:focus {
     width: var(--vspace-5);
     height: var(--vspace-5);
     border: 1.6rem solid rgba(255, 255, 255, 0.02);
+    border-radius: 50%;
+}
+
+.s-hero__pic {
+    width: var(--vspace-5);
+    height: var(--vspace-5);
+    border: 1.5rem solid rgba(255, 255, 255, 0.226);
     border-radius: 50%;
 }
 
